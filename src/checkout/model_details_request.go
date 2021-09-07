@@ -15,5 +15,5 @@ type DetailsRequest struct {
 	// The `paymentData` value from the `/payments` response. In v67 and later, you will always get this value from the Component.
 	PaymentData string `json:"paymentData,omitempty"`
 	// Change the `authenticationOnly` indicator originally set in the `/payments` request. Only needs to be set if you want to modify the value set previously.
-	ThreeDSAuthenticationOnly bool `json:"threeDSAuthenticationOnly,omitempty"`
+	ThreeDSAuthenticationOnly bool `json:"threeDSAuthenticationOnly"`
 }
